@@ -2,6 +2,8 @@
 
 namespace App\Models;
 
+use App\Models\Topic;
+
 class Reply extends Model
 {
     protected $fillable = ['content'];

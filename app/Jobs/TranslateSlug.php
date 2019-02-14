@@ -16,6 +16,8 @@ class TranslateSlug implements ShouldQueue
 {
     use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
 
+    protected $topic;
+
     /**
      * Create a new job instance.
      *
